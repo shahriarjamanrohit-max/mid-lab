@@ -60,3 +60,60 @@ img {
   border-radius: 8px;
   text-align: center;
 }
+
+/* products page grid */
+.grid-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+ 
+.product {
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+}
+ 
+.price {
+  color: green;
+  font-weight: bold;
+}
+ 
+button {
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+}
+ 
+button:hover {
+  background-color: #cc5200;
+}
+ 
+.blue-btn {
+  background-color: #0066cc;
+}
+ 
+.blue-btn:hover {
+  background-color: #004c99;
+}
+ 
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0 12px 0;
+  box-sizing: border-box;
+}
+ 
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}
+ 
